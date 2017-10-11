@@ -24,8 +24,7 @@ This is a modified version of regex written by Berners-Lee for [parsing uri refe
 
 Enum based state machine pattern is used for that part. 
 
-States are included below:
-START,SCHEME,HOST,PORT,PATH,PARAMETERS,END
+States are START,SCHEME,HOST,PORT,PATH,PARAMETERS,END
   
 ```
 
