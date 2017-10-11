@@ -2,8 +2,7 @@
 
 ##### Regular Expression Algorithm
 
-There is a modified version of regex written by Berners-Lee for parsing uri reference 
-[regular exp ref](https://tools.ietf.org/html/rfc3986#appendix-B)
+This is a modified version of regex written by Berners-Lee for [parsing uri reference](https://tools.ietf.org/html/rfc3986#appendix-B)
 
 ```
 ^(([^:/?#]+):)?(//([^/?#]*)/?)?([^?#]*)(\?([^#]*)?)?
