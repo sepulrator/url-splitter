@@ -24,7 +24,7 @@ This is a modified version of regex written by Berners-Lee for [parsing uri refe
 
 Enum based state machine pattern is used for that part. 
 
-States are START,SCHEME,HOST,PORT,PATH,PARAMETERS,END
+States are START,SCHEME,HOST,PORT,PATH,PARAMETERS,END.
   
 ```
 
@@ -33,9 +33,11 @@ States are START,SCHEME,HOST,PORT,PATH,PARAMETERS,END
 > mvn clean install
 > java -jar target/splitUrl.jar "https://www.playtech.com:443/services?marketing_services"
 ```
-
+```
 #### Test Cases
+```bash
 > java -jar target/splitUrl.jar "https://www.playtech.com:443/services?marketing_services"
 > java -jar target/splitUrl.jar "https://www.playtech.com/services?marketing_services"
 > java -jar target/splitUrl.jar "https://www.playtech.com:443/services"
 > java -jar target/splitUrl.jar "https://www.playtech.com/services"
+```
